@@ -54,7 +54,7 @@
   cursor: pointer;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
-  transform: 3s;
+  transition: .3s;
 }
 
 .is-facebook {
@@ -292,6 +292,12 @@
   background-color: #01a6a4;
 }
 
+.submit-btn:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
+}
+
 .agreement {
   font-size: 12px;
   line-height: 16px;
@@ -301,9 +307,20 @@
   color: #01a6a4;
 }
 
+.link-color:hover {
+  color: #01bfbd;
+}
+
 .foot-part {
   text-align: center;
 }
+
+.foot-part a:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
+}
+
 
 .foot-part p, .resend-mail {
   margin-bottom: 8px;
